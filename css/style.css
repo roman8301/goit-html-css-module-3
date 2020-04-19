@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  color: #626262;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*  Site-navigation  */
+.nav-menu {
+  padding: 71px 0 97px 0;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.site-navigation li {
+  display: inline-block;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 107px;
+}
+
+.site-navigation a {
+  color: #626262;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #03a9f4;
+}
