@@ -41,15 +41,15 @@ p {
   font-size: 0;
 }
 
-.site-navigation li {
+.site-navigation-list {
   display: inline-block;
 }
 
-.site-navigation li:not(:last-child) {
+.site-navigation-list:not(:last-child) {
   margin-right: 107px;
 }
 
-.site-navigation a {
+.site-navigation-link {
   color: #626262;
   font-weight: 400;
   text-transform: uppercase;
